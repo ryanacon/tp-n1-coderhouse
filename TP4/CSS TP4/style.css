@@ -17,7 +17,9 @@ span {
 	color:#35D4FC;
 }
 
-
+header {
+	position:relative;
+}
 
 .copy {
 	color: white;
@@ -156,9 +158,9 @@ ul li  {
 	font-size: 20px
 }
 
-nav , section , footer , .buscador {
+nav , section , footer , .buscador, form {
 	max-width: 1071px;
-	width: 100%;
+	width: 1071px;
 	margin:auto;
 }
 
@@ -212,4 +214,131 @@ nav , section , footer , .buscador {
 .contenedor1,  .contenedor2,  .contenedor3 {
 	float:left;
     width: 33%;
+}
+
+.lista_footer {
+    float: right;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    position: relative;
+    top: 37px;
+    right: 27px;
+}
+
+.copy {
+	color: white;
+    line-height: 10;
+    text-indent: 9px;
+    display: inline;
+    position: relative;
+    left: 30px;
+
+}
+
+.navinferior {
+    height: 96px;
+    position: relative;
+    top: -380px;
+}
+
+.header-contact {
+    background-image: url("imagenes/indexbanner-bg2.jpg");
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    padding:77px;
+}
+    .header-contact h1 {
+        font-size: 30px;
+    }
+
+    .header-contact p {
+        font-size: 10px;
+    }
+
+    .form-cont-1 input {
+        font-size: 30px;
+        margin:10px;
+        width: 100%;
+    }
+
+    input :focus {
+        border:5px solid #17a9ed;
+    }
+
+    .form-cont-1, .form-cont-2 {
+        width: 48%;
+        box-sizing:border-box;
+    }
+
+    .form-cont-1 {
+        display: inline-block;
+    }
+    
+    .form-cont-2 {
+        float:right;
+        position:relative;
+        top:10px;
+
+    }
+    .submit2 {
+        width: 145px;
+        padding: 16px 6px;
+        background: #17a9ed;
+        color: white;
+        border: 0px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: bold;
+        position: inherit;
+        margin-left: 500px;
+    }
+
+    textarea {
+        width: 100%;
+        margin:0px;
+        padding:0px;
+    }
+
+    .seccion5 {
+
+        background: #7878C1;
+        height: 282px;
+        line-height: 12;
+        text-align: center;
+        position: relative;
+        top: -380px;
+
+
+    }
+
+    .footer2 {
+        background: #141212;
+        height: 160px;
+        position: relative;
+        top: -380px;
+    }
+        
+        .lista_footer2 {
+            list-style: none;
+            float: right;
+            padding: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            top: 34px;
+        }
+
+.seccion6 {
+    position: relative;
+    top: -380px;
+}    
+
+.form-principal h1,.form-principal p {
+    text-align: center;
+
+}
 
